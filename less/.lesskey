@@ -58,5 +58,5 @@ q quit
 #stop
 
 #env
-LESS = -i
+LESS = -i -R
 LESSCHARSET = utf-8
