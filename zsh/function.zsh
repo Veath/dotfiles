@@ -4,14 +4,22 @@ alias ...="cd ../.."
 alias ~="cd ~"
 alias -- -="cd -"
 
+# 显示当前工作目录
 alias p="pwd"
 alias v="nvim"
+# 列出所有文件和目录，包含图标，目录优先显示
 alias l="eza -al --icons --group-directories-first"
+# 列出所有文件和目录，包含图标，目录优先显示
 alias ll="eza -a --icons --group-directories-first"
+#  用 ssh 通过 kitty 的 ssh 插件连接远程服务器。
 alias ssh="kitty +kitten ssh"
+# 显示目录和文件的磁盘使用情况
 alias du="dust -r -n 999999999"
+# 显示目录结构，包括隐藏文件，并带有颜色
 alias tree="tree -aC"
+# 将当前目录中的所有文件转换为 PNG 格式，输出到 converted-images 目录
 alias icpng="mkdir converted-images; sips -s format png * --out converted-images"
+# 将当前目录中的所有文件转换为 JPEG 格式，输出到 converted-images 目录
 alias icjpg="mkdir converted-images; sips -s format jpeg * --out converted-images"
 
 # git
