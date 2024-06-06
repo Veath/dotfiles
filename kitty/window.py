@@ -1,10 +1,10 @@
 from kittens.tui.handler import result_handler
 
 directions = {
-    "top": "u",
-    "bottom": "e",
-    "left": "n",
-    "right": "i",
+    "top": "k",
+    "bottom": "j",
+    "left": "h",
+    "right": "l",
 }
 
 
