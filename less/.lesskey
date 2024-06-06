@@ -2,14 +2,6 @@
 \r forw-line
 \n forw-line
 
-e forw-line
-E forw-scroll
-u back-line
-U back-scroll
-
-n left-scroll
-i right-scroll
-
 g goto-line
 G goto-end
 
@@ -46,8 +38,6 @@ q quit
 #line-edit
 \ku up
 \kd down
-^N left
-^I right
 
 ^B word-left
 ^H word-right
