@@ -17,9 +17,6 @@ __FD_COMMAND="-L -H --no-ignore-vcs ${__TREE_IGNORE//-I/-E} $__FD_COMMAND"
 export EDITOR="nvim"
 export VISUAL="nvim"
 
-# Kitty terminal
-export KITTY_CONFIG_DIRECTORY="$HOME/.config/kitty"
-
 export MPV_HOME="$HOME/.config/mpv"
 
 export BAT_CONFIG_DIR="$HOME/.config/bat"
