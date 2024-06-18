@@ -14,6 +14,11 @@ export PATH=$PNPM_HOME:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$BUN_HOME:$PATH
 export PATH="$HOME/Library/Application Support/fnm:$PATH"
+# app dev
+export PATH=$ANDROID_HOME/emulator:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+# for ios cocoapods
+export PATH=/opt/homebrew/opt/ruby/bin:$PATH
 if [[ "$(uname -sm)" = "Darwin arm64" ]] then export PATH=/opt/homebrew/bin:$PATH; fi
 
 # Autoload

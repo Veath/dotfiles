@@ -26,6 +26,13 @@ export HOMEBREW_NO_ANALYTICS=1
 export PNPM_HOME=$HOME/Library/pnpm
 export BUN_HOME=$HOME/.bun
 
+# app dev
+export JAVA_HOME=$HOME/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+export ANDROID_HOME=$HOME/Library/Android/sdk
+# ios(cocoapods) for compilers to find ruby you may need to set:
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+
 export LESSKEYIN=$HOME/.config/less/.lesskey
 export LESSHISTFILE=$HOME/.config/less/.lesshst
 
