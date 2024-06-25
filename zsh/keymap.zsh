@@ -10,3 +10,6 @@ function vi-yank-wrapped {
   fi
 }
 zle -N vi-yank-wrapped
+
+bindkey -v
+bindkey -M viins jk vi-cmd-mode
