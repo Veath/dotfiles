@@ -12,6 +12,9 @@ function vi-yank-wrapped {
 zle -N vi-yank-wrapped
 
 bindkey -v
+# Normal mode
+bindkey -M vicmd "H"         vi-first-non-blank
+bindkey -M vicmd "L"         vi-end-of-line
 # Insert mode
 bindkey -M viins "jk" vi-cmd-mode
 # Operator pending mode
