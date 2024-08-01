@@ -6,7 +6,7 @@ ZSHAREDIR=$HOME/.config/zsh
 HISTFILE=$ZDOTDIR/.history
 HISTSIZE=10000
 SAVEHIST=10000
-KEYTIMEOUT=30  # makes the switch between modes quicker
+KEYTIMEOUT=1  # makes the switch between modes quicker
 HISTORY_SUBSTRING_SEARCH_PREFIXED=1  # enables prefixed search for zsh-history-substring-search
 
 # Temporary variables
