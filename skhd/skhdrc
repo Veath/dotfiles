@@ -1,20 +1,20 @@
 # super + j: focus down
-cmd + ctrl + alt - j : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp focus-down-window
+cmd + ctrl + alt - j :  /Users/veath/.bun/bin/ymsp focus-down-window
 
 # super + k: focus up
-cmd + ctrl + alt - k : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp focus-up-window
+cmd + ctrl + alt - k :  /Users/veath/.bun/bin/ymsp focus-up-window
 
 # super + m: focus on master
-cmd + ctrl + alt - m : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp focus-master-window
+cmd + ctrl + alt - m :  /Users/veath/.bun/bin/ymsp focus-master-window
 
 # super + shift + m: move window to master
-cmd + ctrl + alt + shift - m : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp move-window-to-master
+cmd + ctrl + alt + shift - m :  /Users/veath/.bun/bin/ymsp move-window-to-master
 
 # super + i: increase number of master windows
-cmd + ctrl + alt - i : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp increase-master-window-count
+cmd + ctrl + alt - i :  /Users/veath/.bun/bin/ymsp increase-master-window-count
 
 # super + d: decrease number of master windows
-cmd + ctrl + alt - d : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp decrease-master-window-count
+cmd + ctrl + alt - d :  /Users/veath/.bun/bin/ymsp decrease-master-window-count
 
 # super + shift + j: move window down
 cmd + ctrl + alt + shift - j : /opt/homebrew/bin/yabai -m window --swap next || /opt/homebrew/bin/yabai -m window --swap first
@@ -38,21 +38,21 @@ cmd + ctrl + alt + shift - h : /opt/homebrew/bin/yabai -m window --resize bottom
 cmd + ctrl + alt - f : /opt/homebrew/bin/yabai -m window --toggle native-fullscreen
 
 # super + q: close focused window
-cmd + ctrl + alt - q : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp close-focused-window
+cmd + ctrl + alt - q :  /Users/veath/.bun/bin/ymsp close-focused-window
 
 # super + ]: focus next display
-cmd + ctrl + alt - 0x1E : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp focus-next-display
+cmd + ctrl + alt - 0x1E :  /Users/veath/.bun/bin/ymsp focus-next-display
 
 # super + shift + ]: move window to next display
-cmd + ctrl + alt + shift - 0x1E : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp move-window-to-next-display
-cmd + ctrl + alt + shift - 0x58 : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp move-window-to-next-display
+cmd + ctrl + alt + shift - 0x1E :  /Users/veath/.bun/bin/ymsp move-window-to-next-display
+cmd + ctrl + alt + shift - 0x58 :  /Users/veath/.bun/bin/ymsp move-window-to-next-display
 
 # super + [: focus previous display
-cmd + ctrl + alt - 0x21 : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp focus-previous-display
+cmd + ctrl + alt - 0x21 :  /Users/veath/.bun/bin/ymsp focus-previous-display
 
 # super + shift + [: move window to previous display
-cmd + ctrl + alt + shift - 0x21 : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp move-window-to-previous-display
-cmd + ctrl + alt + shift - 0x59 : /Users/veath/.bun/bin/bun /Users/veath/.bun/bin/ymsp move-window-to-previous-display
+cmd + ctrl + alt + shift - 0x21 :  /Users/veath/.bun/bin/ymsp move-window-to-previous-display
+cmd + ctrl + alt + shift - 0x59 :  /Users/veath/.bun/bin/ymsp move-window-to-previous-display
 
 # super + z: minimize window
 cmd + ctrl + alt - z : /opt/homebrew/bin/yabai -m window --minimize
