@@ -13,6 +13,7 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=$PNPM_HOME:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$BUN_HOME:$PATH
+export PATH="$BUN_HOME/bin:$PATH"
 export PATH="$HOME/Library/Application Support/fnm:$PATH"
 # app dev
 export PATH=$ANDROID_HOME/emulator:$PATH
